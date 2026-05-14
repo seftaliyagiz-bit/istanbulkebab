@@ -43,9 +43,8 @@
     }
     .nav-logo { text-decoration: none; display: flex; align-items: center; }
     .nav-logo img {
-      max-height: 48px; width: auto; display: block;
-      filter: brightness(0) invert(1);
-      opacity: 0.92;
+      max-height: 55px; width: auto; display: block;
+      object-fit: contain;
     }
     .nav-right { display: flex; align-items: center; gap: 1.8rem; }
     .nav-links { display: flex; gap: 1.5rem; list-style: none; }
@@ -81,7 +80,7 @@
     /* ── HERO ── */
     #hero {
       height: 100vh; min-height: 640px;
-      background-image: url('https://images.unsplash.com/photo-1599487488170-d11ec9c172f0?w=1600');
+      background-image: url('https://images.unsplash.com/photo-1561651188-d207bbec4ec3?w=1600');
       background-size: cover; background-position: center;
       position: relative;
       display: flex; align-items: center; justify-content: center; text-align: center;
@@ -373,7 +372,7 @@
 <!-- ── NAVBAR ── -->
 <nav id="navbar" role="navigation" aria-label="Hoofdmenu">
   <a href="#hero" class="nav-logo" aria-label="Istanbul Kebab Leuven — home">
-    <img src="images/logo.png" alt="Istanbul Kebab Leuven" />
+    <img src="images/hero.png" alt="Istanbul Kebab Leuven" style="max-height:55px;object-fit:contain;" />
   </a>
   <div class="nav-right">
     <ul class="nav-links">
